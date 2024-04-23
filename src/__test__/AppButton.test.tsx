@@ -5,6 +5,6 @@ import AppButton from "../components/button/AppButton";
 describe("IncreaseButton", () => {
   test("renders", () => {
     render(<AppButton />);
-    expect(screen.getByText("Hello")).toBeDefined();
+    expect(screen.getByText("Hello-1")).toBeDefined();
   });
 });
